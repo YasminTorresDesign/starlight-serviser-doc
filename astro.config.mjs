@@ -11,7 +11,7 @@ export default defineConfig({
 				src: './src/assets/logos.png',
 			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/miguelcmo/Sennova/tree/main',
 			},
 			sidebar: [
 				{
