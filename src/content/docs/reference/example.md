@@ -1,5 +1,5 @@
 ---
-title: Example Reference
+title: Ejemplo de Manual de Usuario
 description: A reference page in my new Starlight docs site.
 ---
 

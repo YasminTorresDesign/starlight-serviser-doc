@@ -6,20 +6,30 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Documentación',
+			logo: {
+				src: './src/assets/logos.png',
+			},
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Guia de Instalación',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Ejemplo de Instalación', slug: 'guides/example' },
 					],
 				},
 				{
-					label: 'Reference',
+					label: 'Manual Tecnico',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Ejemplo de Manual Técnico', slug: 'manuales/manual' },
+					],
+				},
+				{
+					label: 'Manual de Usuario',
 					autogenerate: { directory: 'reference' },
 				},
 			],
