@@ -26,9 +26,23 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Inicio', slug: 'manual-tecnico/manual-tecnico-inicio' },
+
+						// Carpeta adicional dentro de "Manual Técnico"
+						{
+							label: 'Clases',
+							items: [
+							  { label: 'main', slug: 'manual-tecnico/clases/main' },
+							  { label: 'main-local', slug: 'manual-tecnico/clases/main-local' },
+							  { label: 'gitignore', slug: 'manual-tecnico/clases/gitignore' },
+							  { label: 'appAsset', slug: 'manual-tecnico/clases/app-asset' },
+							  { label: 'gitignore-original', slug: 'manual-tecnico/clases/gitignore-original' },
+							  { label: 'bootstrap', slug: 'manual-tecnico/clases/bootstrap' },
+							  { label: 'codeception-local', slug: 'manual-tecnico/clases/codeception-local' },
+							  
+							],
+						}
 					],
-					
-					
+									
 				},
 				{
 					label: 'Instalación',

@@ -1,6 +1,14 @@
 ---
-title: Manual Técnico - main-local.php
+title: Manual Técnico 
 description:  Documentación Técnica del Archivo `main-local.php`
+---
+
+Aquí tienes la documentación técnica del archivo `main-local.php`, en español e inglés.
+
+---
+
+## Documentación Técnica del Archivo `main-local.php`
+
 ---
 
 ### Español
