@@ -38,6 +38,7 @@ export default defineConfig({
 							  { label: 'gitignore-original', slug: 'manual-tecnico/clases/gitignore-original' },
 							  { label: 'bootstrap', slug: 'manual-tecnico/clases/bootstrap' },
 							  { label: 'codeception-local', slug: 'manual-tecnico/clases/codeception-local' },
+							  { label: 'test-php', slug: 'manual-tecnico/clases/test-php' },
 							  
 							],
 						}
