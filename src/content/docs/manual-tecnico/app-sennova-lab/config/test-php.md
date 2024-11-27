@@ -11,22 +11,22 @@ Aquí tienes la documentación técnica del archivo `test.php`
 
 ---
 
-#### ¿Para qué es?
+### ¿Para qué es?
 El archivo `test.php` es un archivo de configuración específico para el entorno de pruebas (testing) en una aplicación Yii2. Define las configuraciones necesarias para ejecutar las pruebas unitarias, funcionales e integración de la aplicación.
 
-#### Definición de la Carpeta
+### Definición de la Carpeta
 Se encuentra en la carpeta `appSennovalab/config/`, que es el directorio estándar para archivos de configuración en aplicaciones Yii2. Esta ubicación específica indica que es parte de un módulo o aplicación llamada "Sennovalab".
 
-#### Propósito
+### Propósito
 El propósito principal es establecer una configuración específica para el entorno de pruebas, asegurando que las pruebas se ejecuten en un entorno controlado y aislado del entorno de producción o desarrollo.
 
 ## Funciones y Componentes
 El archivo configura varios componentes esenciales:
 
-1. **ID de la Aplicación**
+###  **ID de la Aplicación**
    - `'id' => 'app-sennovalab-tests'`: Identifica únicamente la aplicación en modo pruebas.
 
-2. **Asset Manager**
+###  **Asset Manager**
    ```php
    'assetManager' => [
        'basePath' => __DIR__ . '/../web/assets',
@@ -34,7 +34,7 @@ El archivo configura varios componentes esenciales:
    ```
    - Define la ruta base para los assets (recursos estáticos) durante las pruebas.
 
-3. **URL Manager**
+####  **URL Manager**
    ```php
    'urlManager' => [
        'showScriptName' => true,
@@ -43,7 +43,7 @@ El archivo configura varios componentes esenciales:
    - Configura el comportamiento de las URLs durante las pruebas.
    - Muestra el nombre del script en las URLs para mejor depuración.
 
-4. **Request Component**
+###  **Request Component**
    ```php
    'request' => [
        'cookieValidationKey' => 'test',
@@ -52,7 +52,7 @@ El archivo configura varios componentes esenciales:
    - Configura el componente de solicitud HTTP.
    - Establece una clave de validación de cookies específica para pruebas.
 
-5. **Mailer Component**
+###  **Mailer Component**
    ```php
    'mailer' => [
        'messageClass' => \yii\symfonymailer\Message::class
