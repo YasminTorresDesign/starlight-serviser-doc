@@ -40,16 +40,34 @@ export default defineConfig({
 								{
 									label: 'config',
 									items: [
-									  { label: 'main', slug: 'manual-tecnico/app-sennova-lab/config/main' },
-									  { label: 'main-local', slug: 'manual-tecnico/app-sennova-lab/config/main-local' },
-									  { label: 'gitignore', slug: 'manual-tecnico/app-sennova-lab/config/gitignore' },
-									  { label: 'appAsset', slug: 'manual-tecnico/app-sennova-lab/asset/app-asset' },
-									  { label: 'gitignore-original', slug: 'manual-tecnico/app-sennova-lab/config/gitignore-original' },
-									  { label: 'bootstrap', slug: 'manual-tecnico/app-sennova-lab/config/bootstrap' },
-									  { label: 'codeception-local', slug: 'manual-tecnico/app-sennova-lab/config/codeception-local' },
-									  { label: 'test-php', slug: 'manual-tecnico/app-sennova-lab/config/test-php' },
+										{ label: 'gitignore', slug: 'manual-tecnico/app-sennova-lab/config/gitignore' },
+										{ label: 'gitignore-original', slug: 'manual-tecnico/app-sennova-lab/config/gitignore-original' },
+										{ label: 'bootstrap.php', slug: 'manual-tecnico/app-sennova-lab/config/bootstrap' },
+										{ label: 'codeception-local.php', slug: 'manual-tecnico/app-sennova-lab/config/codeception-local' },
+										{ label: 'main-local.php', slug: 'manual-tecnico/app-sennova-lab/config/main-local' },
+									    { label: 'main.php', slug: 'manual-tecnico/app-sennova-lab/config/main' },
+									    { label: 'test.php', slug: 'manual-tecnico/app-sennova-lab/config/test-php' },
 									  
 									],
+								},
+								{ 
+									label: 'controllers',
+									items: [
+										{ label: 'SiteController.php', slug: 'manual-tecnico/app-sennova-lab/controllers/site-controller' },
+									],	
+								},
+								{ 
+									label: 'mail',
+									items: [
+										{ label: 'layouts/html.php', slug: 'manual-tecnico/app-sennova-lab/mail/layouts-html' },
+										{ label: 'layouts/text.php', slug: 'manual-tecnico/app-sennova-lab/mail/layouts-text' },
+										{ label: 'contactForm-html.php', slug: 'manual-tecnico/app-sennova-lab/mail/contact-form-html' },
+										{ label: 'contactForm-text.php', slug: 'manual-tecnico/app-sennova-lab/mail/contact-form-text' },
+										{ label: 'emailVerify-html.php', slug: 'manual-tecnico/app-sennova-lab/mail/email-verify-html' },
+										{ label: 'emailVerify-text.php', slug: 'manual-tecnico/app-sennova-lab/mail/email-verify-text' },
+										{ label: 'passwordResetToken-html.php', slug: 'manual-tecnico/app-sennova-lab/mail/password-reset-token-html' },
+										{ label: 'passwordResetToken-text.php', slug: 'manual-tecnico/app-sennova-lab/mail/password-reset-token-text' },
+									],	
 								},
 								
 								

@@ -1,15 +1,12 @@
 ---
-title: Manual Técnico 
+title: Manual Técnico AppSennovaLab
 description:  Documentación Técnica del Archivo `appAsset.php`
----
-
-Aquí tienes la documentación técnica del archivo `AppAsset.php`, en español e inglés.
-
 ---
 
 ## Documentación Técnica de `AppAsset.php`
 
 ---
+
 ## Español
 
 ### ¿Para qué es?

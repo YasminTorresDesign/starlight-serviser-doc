@@ -1,10 +1,6 @@
 ---
-title: Manual Técnico 
+title: Manual Técnico AppSennovaLab
 description:  Documentación Técnica del Archivo `gitignore-original.php`
----
-
-Aquí tienes la documentación técnica del archivo `.gitignore_original`, en español e inglés.
-
 ---
 
 ## Documentación Técnica del Archivo `.gitignore_original`

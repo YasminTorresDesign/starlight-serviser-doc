@@ -1,10 +1,6 @@
 ---
-title: Manual Técnico 
+title: Manual Técnico AppSennovaLab
 description:  Documentación Técnica del Archivo `test.php`
----
-
-Aquí tienes la documentación técnica del archivo `test.php`
-
 ---
 
 ## Documentación Técnica del Archivo `test.php`

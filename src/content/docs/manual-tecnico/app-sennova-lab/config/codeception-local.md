@@ -1,10 +1,6 @@
 ---
-title: Manual Técnico 
+title: Manual Técnico AppSennovaLab
 description:  Documentación Técnica del Archivo `codeception-local.php`
----
-
-Aquí tienes la documentación técnica del archivo `codeception-local.php`, en español e inglés.
-
 ---
 
 ## Documentación Técnica del Archivo `codeception-local.php`
