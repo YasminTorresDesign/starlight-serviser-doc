@@ -75,10 +75,78 @@ export default defineConfig({
 						},
 						{
 							label: 'AppServiser',
-							items: [
-								// Each item here is one entry in the navigation menu.
-								
-							],
+								items: [
+									// Each item here is one entry in the navigation menu.
+									{ 
+										label: 'assets',
+										items: [
+											{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									{ 
+										label: 'config',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-sennova-lab/asset/app-asset' },
+											{ label: 'gitignore', slug: 'manual-tecnico/app-serviser/config/gitignore' },
+											{ label: 'gitignore-original', slug: 'manual-tecnico/app-serviser/config/gitignore-original' },
+											{ label: 'bootstrap.php', slug: 'manual-tecnico/app-serviser/config/bootstrap' },
+											{ label: 'codeception-local.php', slug: 'manual-tecnico/app-serviser/config/codeception-local' },
+											{ label: 'i18n-config.php', slug: 'manual-tecnico/app-serviser/config/i18n-config' },
+											{ label: 'main-local.php', slug: 'manual-tecnico/app-serviser/config/main-local' },
+											{ label: 'main.php', slug: 'manual-tecnico/app-serviser/config/main' },
+											{ label: 'test.php', slug: 'manual-tecnico/app-serviser/config/test' },
+										],	
+									},
+									{ 
+										label: 'controllers',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									{ 
+										label: 'mail',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									{ 
+										label: 'messages',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									{ 
+										label: 'models',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									{ 
+										label: 'runtime',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									{ 
+										label: 'tests',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									{ 
+										label: 'views',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									{ 
+										label: 'web',
+										items: [
+											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										],	
+									},
+									
+								],
 						},
 						{
 							label: 'AppServiserAdmin',
