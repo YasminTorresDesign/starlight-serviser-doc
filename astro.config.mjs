@@ -69,6 +69,42 @@ export default defineConfig({
 										{ label: 'passwordResetToken-text.php', slug: 'manual-tecnico/app-sennova-lab/mail/password-reset-token-text' },
 									],	
 								},
+								{ 
+									label: 'models',
+									items: [
+										{ label: 'ContactForm.php', slug: 'manual-tecnico/app-sennova-lab/models/contact-form' },
+										{ label: 'PasswordResetRequestForm.php', slug: 'manual-tecnico/app-sennova-lab/models/password-reset-request' },
+										{ label: 'ResendVerificationEmailForm.php', slug: 'manual-tecnico/app-sennova-lab/models/resend-verification-email' },
+										{ label: 'ResetPasswordForm.php', slug: 'manual-tecnico/app-sennova-lab/models/reset-password' },
+										{ label: 'SignupForm.php', slug: 'manual-tecnico/app-sennova-lab/models/signup-form' },
+										{ label: 'VerifyEmailForm.php', slug: 'manual-tecnico/app-sennova-lab/models/verify-email-form' },
+										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+									],	
+								},
+								{ 
+									label: 'runtime',
+									items: [
+										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+									],	
+								},
+								{ 
+									label: 'tests',
+									items: [
+										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+									],	
+								},
+								{ 
+									label: 'views',
+									items: [
+										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+									],	
+								},
+								{ 
+									label: 'web',
+									items: [
+										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+									],	
+								},
 								
 								
 							],
@@ -171,7 +207,7 @@ export default defineConfig({
 				
 				{
 					label: 'Manual de Usuario',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'manual-usuario' },
 				},
 			],
 		}),
