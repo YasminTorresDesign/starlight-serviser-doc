@@ -3,7 +3,7 @@ title: Manual Técnico AppSennovaLab
 description:  Documentación Técnica del Archivo `ResetPasswordForm.php`
 ---
 
-# Documentación Técnica del Archivo `ResetPasswordForm.php` en la Carpeta `appSennovaLab/models`
+## Documentación Técnica del Archivo `ResetPasswordForm.php` en la Carpeta `appSennovaLab/models`
 
 ## Español
 

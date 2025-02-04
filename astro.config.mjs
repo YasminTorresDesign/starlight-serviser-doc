@@ -84,6 +84,7 @@ export default defineConfig({
 								{ 
 									label: 'runtime',
 									items: [
+										{ label: '.gitignore', slug: 'manual-tecnico/app-sennova-lab/runtime/gitignore' },
 										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
 									],	
 								},
@@ -91,6 +92,49 @@ export default defineConfig({
 									label: 'tests',
 									items: [
 										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+
+										{ 
+											label: '_data',
+											items: [
+												{ label: 'login_data.php', slug: 'manual-tecnico/app-sennova-lab/tests/data/login-data' },
+											],	
+										},
+										{ 
+											label: '_output',
+											items: [
+												{ label: '.gitignore', slug: 'manual-tecnico/app-sennova-lab/tests/output/gitignore' },
+											],	
+										},
+										{ 
+											label: '_support',
+											items: [
+												{ label: '.gitignore', slug: 'manual-tecnico/app-sennova-lab/tests/support/gitignore' },
+												{ label: 'FunctionalTester.php', slug: 'manual-tecnico/app-sennova-lab/tests/support/functional-tester' },
+												{ label: 'UnitTester.php', slug: 'manual-tecnico/app-sennova-lab/tests/support/unit-tester' },
+											],	
+											
+										},
+										{ 
+											label: 'acceptance',
+											items: [
+												{ label: '_bootstrap.php', slug: 'manual-tecnico/app-sennova-lab/tests/acceptance/bootstrap' },
+												{ label: 'HomeCest.php', slug: 'manual-tecnico/app-sennova-lab/tests/acceptance/home-cest' },
+											],	
+										},
+										{ 
+											label: 'functional',
+											items: [
+												{ label: '_bootstrap.php', slug: 'manual-tecnico/app-sennova-lab/tests/functional/bootstrap' },
+												{ label: 'AboutCest.php', slug: 'manual-tecnico/app-sennova-lab/tests/functional/about-cest' },
+												{ label: 'ContactCest.php', slug: 'manual-tecnico/app-sennova-lab/tests/functional/contact-cest' },
+												{ label: 'HomeCest.php', slug: 'manual-tecnico/app-sennova-lab/tests/functional/home-cest' },
+												{ label: 'LoginCest.php', slug: 'manual-tecnico/app-sennova-lab/tests/functional/login-cest' },
+												{ label: 'ResendVerificationEmailCest.php', slug: 'manual-tecnico/app-sennova-lab/tests/functional/resend-verification-email-cest' },
+												{ label: 'SignupCest.php', slug: 'manual-tecnico/app-sennova-lab/tests/functional/signup-cest' },
+												{ label: 'VerifyEmailCest.php.php', slug: 'manual-tecnico/app-sennova-lab/tests/functional/verify-email-cest' },
+												
+											],	
+										},
 									],	
 								},
 								{ 

@@ -3,7 +3,7 @@ title: Manual Técnico AppSennovaLab
 description:  Documentación Técnica del Archivo `ResendVerificationEmailForm.php`
 ---
 
-# Documentación Técnica del Archivo `ResendVerificationEmailForm.php` en la Carpeta `appSennovaLab/models`
+## Documentación Técnica del Archivo `ResendVerificationEmailForm.php` en la Carpeta `appSennovaLab/models`
 
 ## ¿Para qué es?
 El archivo `ResendVerificationEmailForm.php` se utiliza para definir el modelo de datos del formulario de reenvío del correo electrónico de verificación en la aplicación. Este modelo gestiona la validación y el procesamiento de la información que los usuarios envían para solicitar que se les reenvíe el correo electrónico de verificación.
