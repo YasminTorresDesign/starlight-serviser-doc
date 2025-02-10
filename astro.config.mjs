@@ -135,6 +135,15 @@ export default defineConfig({
 												
 											],	
 										},
+										{ 
+											label: 'unit',
+											items: [
+												{ label: '_bootstrap.php', slug: 'manual-tecnico/app-sennova-lab/tests/unit/bootstrap' },
+												{ label: 'acceptance.suite.yml.example', slug: 'manual-tecnico/app-sennova-lab/tests/unit/acceptance-suite' },
+												{ label: 'functional.suite.yml', slug: 'manual-tecnico/app-sennova-lab/tests/unit/functional-suite' },
+												{ label: 'unit.suite.yml', slug: 'manual-tecnico/app-sennova-lab/tests/unit/unit-suite' },
+											],	
+										},
 									],	
 								},
 								{ 
