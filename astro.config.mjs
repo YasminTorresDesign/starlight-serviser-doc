@@ -240,7 +240,16 @@ export default defineConfig({
 									{ 
 										label: 'controllers',
 										items: [
-											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+											{ label: 'Definicion', slug: 'manual-tecnico/app-serviser/controllers/1-definicion-controllers' },
+											{ label: 'AddressController.php', slug: 'manual-tecnico/app-serviser/controllers/address-controller' },
+											{ label: 'CourseController.php', slug: 'manual-tecnico/app-serviser/controllers/course-controller' },
+											{ label: 'EnrollmentMessageController.php', slug: 'manual-tecnico/app-serviser/controllers/enrollment-message' },
+											{ label: 'LessonController.php', slug: 'manual-tecnico/app-serviser/controllers/lesson-controller' },
+											{ label: 'MemberController.php', slug: 'manual-tecnico/app-serviser/controllers/member-controller' },
+											{ label: 'ProfileController.php', slug: 'manual-tecnico/app-serviser/controllers/profile-controller' },
+											{ label: 'ProfileInfoController.php', slug: 'manual-tecnico/app-serviser/controllers/profile-info-controller' },
+											{ label: 'SiteController.php', slug: 'manual-tecnico/app-serviser/controllers/site-controller' },
+											{ label: 'TestController.php', slug: 'manual-tecnico/app-serviser/controllers/test-controller' },
 										],	
 									},
 									{ 
