@@ -8,7 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'Documentación',
 			logo: {
-				src: './src/assets/logo-TI.jpeg',
+				src: './src/assets/favicon-32x32.png',
 			},
 			social: {
 				github: 'https://github.com/miguelcmo/Sennova/tree/main',
@@ -185,8 +185,30 @@ export default defineConfig({
 									label: 'web',
 									items: [
 										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										{ 
+											label: 'css',
+											items: [
+												{ label: 'custom.php', slug: 'manual-tecnico/app-sennova-lab/web/css/custom' },
+												{ label: 'site.php', slug: 'manual-tecnico/app-sennova-lab/web/css/site' },
+											],	
+										},
+										{ 
+											label: 'images',
+											items: [
+												{ label: 'images.php', slug: 'manual-tecnico/app-sennova-lab/web/images/images' },
+												
+												
+											],	
+										},
+										{ label: 'favicon.ico', slug: 'manual-tecnico/app-sennova-lab/web/favicon' },
+										{ label: 'index.php', slug: 'manual-tecnico/app-sennova-lab/web/index-php' },
+										{ label: 'index-test.php', slug: 'manual-tecnico/app-sennova-lab/web/index-test' },
+										{ label: 'robots.txt', slug: 'manual-tecnico/app-sennova-lab/web/robots' },
 									],	
 								},
+
+								{ label: 'codeception.yml', slug: 'manual-tecnico/app-sennova-lab/codeception-yml' },
+								{ label: 'Dockerfile', slug: 'manual-tecnico/app-sennova-lab/dockerfile' },
 								
 								
 							],
