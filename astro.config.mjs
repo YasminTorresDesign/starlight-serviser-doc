@@ -139,17 +139,46 @@ export default defineConfig({
 											label: 'unit',
 											items: [
 												{ label: '_bootstrap.php', slug: 'manual-tecnico/app-sennova-lab/tests/unit/bootstrap' },
-												{ label: 'acceptance.suite.yml.example', slug: 'manual-tecnico/app-sennova-lab/tests/unit/acceptance-suite' },
-												{ label: 'functional.suite.yml', slug: 'manual-tecnico/app-sennova-lab/tests/unit/functional-suite' },
-												{ label: 'unit.suite.yml', slug: 'manual-tecnico/app-sennova-lab/tests/unit/unit-suite' },
+												
 											],	
 										},
+
+										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										{ label: 'acceptance.suite.yml.example', slug: 'manual-tecnico/app-sennova-lab/tests/acceptance-suite' },
+										{ label: 'functional.suite.yml', slug: 'manual-tecnico/app-sennova-lab/tests/functional-suite' },
+										{ label: 'unit.suite.yml', slug: 'manual-tecnico/app-sennova-lab/tests/unit-suite' },
+										
 									],	
 								},
 								{ 
 									label: 'views',
 									items: [
 										//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+										{ 
+											label: 'layouts',
+											items: [
+												{ label: 'footer.php', slug: 'manual-tecnico/app-sennova-lab/views/layouts/footer' },
+												{ label: 'header.php', slug: 'manual-tecnico/app-sennova-lab/views/layouts/header' },
+												{ label: 'main.php', slug: 'manual-tecnico/app-sennova-lab/views/layouts/main' },
+												
+											],	
+										},
+										{ 
+											label: 'site',
+											items: [
+												{ label: 'about.php', slug: 'manual-tecnico/app-sennova-lab/views/site/about' },
+												{ label: 'contact.php', slug: 'manual-tecnico/app-sennova-lab/views/site/contact' },
+												{ label: 'error.php', slug: 'manual-tecnico/app-sennova-lab/views/site/error' },
+												{ label: 'index.php', slug: 'manual-tecnico/app-sennova-lab/views/site/index-php' },
+												{ label: 'login.php', slug: 'manual-tecnico/app-sennova-lab/views/site/login' },
+												{ label: 'portfolio.php', slug: 'manual-tecnico/app-sennova-lab/views/site/portfolio' },
+												{ label: 'requestPasswordResetToken.php.php', slug: 'manual-tecnico/app-sennova-lab/views/site/request-password' },
+												{ label: 'resendVerificationEmail.php.php', slug: 'manual-tecnico/app-sennova-lab/views/site/resend-verification' },
+												{ label: 'resetPassword.php.php', slug: 'manual-tecnico/app-sennova-lab/views/site/reset-password' },
+												{ label: 'signup.php', slug: 'manual-tecnico/app-sennova-lab/views/site/signup' },
+												
+											],	
+										},
 									],	
 								},
 								{ 
