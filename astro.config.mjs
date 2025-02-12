@@ -216,7 +216,7 @@ export default defineConfig({
 						{
 							label: 'AppServiser',
 								items: [
-									// Each item here is one entry in the navigation menu.
+									{ label: 'Inicio', slug: 'manual-tecnico/app-serviser/manual-tecnico-serviser' },
 									{ 
 										label: 'assets',
 										items: [
@@ -255,13 +255,25 @@ export default defineConfig({
 									{ 
 										label: 'mail',
 										items: [
-											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+
+											{ 
+												label: 'layouts',
+												items: [
+													{ label: 'html.php', slug: 'manual-tecnico/app-serviser/mail/layouts/html' },
+													{ label: 'text.php', slug: 'manual-tecnico/app-serviser/mail/layouts/text' },
+												],	
+											},
+											
+											{ label: 'emailVerify-html.php', slug: 'manual-tecnico/app-serviser/mail/email-verify-html' },
+											{ label: 'emailVerify-text.php', slug: 'manual-tecnico/app-serviser/mail/email-verify-text' },
+											{ label: 'passwordResetToken-html.php', slug: 'manual-tecnico/app-serviser/mail/password-reset-html' },
+											{ label: 'passwordResetToken-text.php', slug: 'manual-tecnico/app-serviser/mail/password-reset-text' },
 										],	
 									},
 									{ 
-										label: 'messages',
+										label: 'messages/es-CO',
 										items: [
-											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+											{ label: 'app.php', slug: 'manual-tecnico/app-serviser/messages/app-php' },
 										],	
 									},
 									{ 
