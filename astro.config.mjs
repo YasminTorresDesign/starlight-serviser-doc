@@ -279,7 +279,12 @@ export default defineConfig({
 									{ 
 										label: 'models',
 										items: [
-											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+											{ label: 'ContactForm.php', slug: 'manual-tecnico/app-serviser/models/contact-form' },
+											{ label: 'PasswordResetRequestForm.php', slug: 'manual-tecnico/app-serviser/models/password-reset-form' },
+											{ label: 'ResendVerificationEmailForm.php', slug: 'manual-tecnico/app-serviser/models/resend-verification-form' },
+											{ label: 'ResetPasswordForm.php', slug: 'manual-tecnico/app-serviser/models/reset-password-form' },
+											{ label: 'SignupForm.php', slug: 'manual-tecnico/app-serviser/models/signup-form' },
+											{ label: 'VerifyEmailForm.php', slug: 'manual-tecnico/app-serviser/models/verify-email-form' },
 										],	
 									},
 									{ 
