@@ -290,12 +290,40 @@ export default defineConfig({
 									{ 
 										label: 'runtime',
 										items: [
-											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+											{ label: '.gitignore', slug: 'manual-tecnico/app-serviser/runtime/gitignore' },
 										],	
 									},
 									{ 
 										label: 'tests',
 										items: [
+											{ 
+												label: '_data',
+												items: [
+													{ label: 'login_data.php', slug: 'manual-tecnico/app-serviser/tests/data/login-data' },
+													{ label: 'user.php', slug: 'manual-tecnico/app-serviser/tests/data/user' },
+												],	
+											},
+											{ 
+												label: '_output',
+												items: [
+													{ label: '.gitignore', slug: 'manual-tecnico/app-serviser/tests/output/gitignore' },
+												],	
+											},
+											{ 
+												label: '_support',
+												items: [
+													{ label: '.gitignore', slug: 'manual-tecnico/app-serviser/tests/support/gitignore' },
+													{ label: 'FunctionalTester.php', slug: 'manual-tecnico/app-serviser/tests/support/functional-tester' },
+													{ label: 'UnitTester.php', slug: 'manual-tecnico/app-serviser/tests/support/unit-tester' },
+												],	
+											},
+											{ 
+												label: 'acceptance',
+												items: [
+													{ label: '_bootstrap.php', slug: 'manual-tecnico/app-serviser/tests/acceptance/bootstrap' },
+													{ label: 'HomeCest.php', slug: 'manual-tecnico/app-serviser/tests/acceptance/home-cest' },
+												],	
+											},
 											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
 										],	
 									},
