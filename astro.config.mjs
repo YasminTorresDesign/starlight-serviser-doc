@@ -337,7 +337,29 @@ export default defineConfig({
 													{ label: 'VerifyEmailCest.php', slug: 'manual-tecnico/app-serviser/tests/functional/verify-email-cest' },
 												],	
 											},
-											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+											{ 
+												label: 'unit',
+												items: [
+													{ 
+														label: 'models',
+														items: [
+															{ label: 'ContactFormTest.php', slug: 'manual-tecnico/app-serviser/tests/unit/models/contact-form-test' },
+															{ label: 'PasswordResetRequestFormTest.php', slug: 'manual-tecnico/app-serviser/tests/unit/models/password-reset-test' },
+															{ label: 'ResendVerificationEmailFormTest.php', slug: 'manual-tecnico/app-serviser/tests/unit/models/resend-verification-test' },
+															{ label: 'ResetPasswordFormTest.php', slug: 'manual-tecnico/app-serviser/tests/unit/models/reset-password-test' },
+															{ label: 'SignupFormTest.php', slug: 'manual-tecnico/app-serviser/tests/unit/models/signup-form-test' },
+															{ label: 'VerifyEmailFormTest.php', slug: 'manual-tecnico/app-serviser/tests/unit/models/verify-email-test' },
+														],	
+													},
+													
+												],
+													
+											},
+											{ label: '_bootstrap.php', slug: 'manual-tecnico/app-serviser/tests/bootstrap' },
+											{ label: 'acceptance.suite.yml.example', slug: 'manual-tecnico/app-serviser/tests/acceptance-suite-yml' },
+											{ label: 'functional.suite.yml', slug: 'manual-tecnico/app-serviser/tests/functional-suite-yml' },
+											{ label: 'unit.suite.yml', slug: 'manual-tecnico/app-serviser/tests/unit-suite-yml' },
+											
 										],	
 									},
 									{ 
