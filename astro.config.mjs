@@ -396,25 +396,32 @@ export default defineConfig({
 											{ 
 												label: 'layouts',
 												items: [
-													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+													{ label: 'footer.php', slug: 'manual-tecnico/app-serviser/views/layouts/footer' },
+													{ label: 'header.php', slug: 'manual-tecnico/app-serviser/views/layouts/header' },
+													{ label: 'main.php', slug: 'manual-tecnico/app-serviser/views/layouts/main' },
 												],	
 											},
 											{ 
 												label: 'lesson',
 												items: [
-													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+													{ label: 'view.php', slug: 'manual-tecnico/app-serviser/views/lesson/view' },
 												],	
 											},
 											{ 
 												label: 'member',
 												items: [
-													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+													{ label: 'index.php', slug: 'manual-tecnico/app-serviser/views/member/indexa' },
 												],	
 											},
 											{ 
 												label: 'profile',
 												items: [
-													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+													{ label: '_form', slug: 'manual-tecnico/app-serviser/views/profile/form' },
+													{ label: '_search', slug: 'manual-tecnico/app-serviser/views/profile/search' },
+													{ label: 'create.php', slug: 'manual-tecnico/app-serviser/views/profile/create' },
+													{ label: 'index.php', slug: 'manual-tecnico/app-serviser/views/profile/indexa' },
+													{ label: 'update.php', slug: 'manual-tecnico/app-serviser/views/profile/update' },
+													{ label: 'view.php', slug: 'manual-tecnico/app-serviser/views/profile/view' },
 												],	
 											},
 											{ 
