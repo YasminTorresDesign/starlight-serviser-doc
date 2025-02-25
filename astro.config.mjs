@@ -365,7 +365,77 @@ export default defineConfig({
 									{ 
 										label: 'views',
 										items: [
-											//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+											{ 
+												label: 'address',
+												items: [
+													{ label: '_form.php', slug: 'manual-tecnico/app-serviser/views/address/form' },
+													{ label: '_search.php', slug: 'manual-tecnico/app-serviser/views/address/search' },
+													{ label: 'create.php', slug: 'manual-tecnico/app-serviser/views/address/create' },
+													{ label: 'index.php', slug: 'manual-tecnico/app-serviser/views/address/indexa' },
+													{ label: 'update.php', slug: 'manual-tecnico/app-serviser/views/address/update' },
+													{ label: 'view.php', slug: 'manual-tecnico/app-serviser/views/address/view' },
+												],	
+											},
+											{ 
+												label: 'course',
+												items: [
+													{ label: 'view.php', slug: 'manual-tecnico/app-serviser/views/course/view' },
+												],	
+											},
+											{ 
+												label: 'enrollment-message',
+												items: [
+													{ label: '_form', slug: 'manual-tecnico/app-serviser/views/enrollment-message/form' },
+													{ label: '_search', slug: 'manual-tecnico/app-serviser/views/enrollment-message/search' },
+													{ label: 'create', slug: 'manual-tecnico/app-serviser/views/enrollment-message/create' },
+													{ label: 'index', slug: 'manual-tecnico/app-serviser/views/enrollment-message/indexa' },
+													{ label: 'update', slug: 'manual-tecnico/app-serviser/views/enrollment-message/update' },
+													{ label: 'view', slug: 'manual-tecnico/app-serviser/views/enrollment-message/view' },
+												],	
+											},
+											{ 
+												label: 'layouts',
+												items: [
+													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+												],	
+											},
+											{ 
+												label: 'lesson',
+												items: [
+													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+												],	
+											},
+											{ 
+												label: 'member',
+												items: [
+													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+												],	
+											},
+											{ 
+												label: 'profile',
+												items: [
+													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+												],	
+											},
+											{ 
+												label: 'profile-info',
+												items: [
+													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+												],	
+											},
+											{ 
+												label: 'site',
+												items: [
+													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+												],	
+											},
+											{ 
+												label: 'test',
+												items: [
+													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+												],	
+											},
+											
 										],	
 									},
 									{ 
