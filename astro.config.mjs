@@ -427,19 +427,36 @@ export default defineConfig({
 											{ 
 												label: 'profile-info',
 												items: [
-													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+													{ label: '_form', slug: 'manual-tecnico/app-serviser/views/profile-info/form' },
+													{ label: '_search', slug: 'manual-tecnico/app-serviser/views/profile-info/search' },
+													{ label: 'create.php', slug: 'manual-tecnico/app-serviser/views/profile-info/create' },
+													{ label: 'index.php', slug: 'manual-tecnico/app-serviser/views/profile-info/indexa' },
+													{ label: 'update.php', slug: 'manual-tecnico/app-serviser/views/profile-info/update' },
+													{ label: 'view.php', slug: 'manual-tecnico/app-serviser/views/profile-info/view' },
 												],	
 											},
 											{ 
 												label: 'site',
 												items: [
-													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+													{ label: 'about.php', slug: 'manual-tecnico/app-serviser/views/site/about' },
+													{ label: 'contact.php', slug: 'manual-tecnico/app-serviser/views/site/contact' },
+													{ label: 'error.php', slug: 'manual-tecnico/app-serviser/views/site/error' },
+													{ label: 'index.php', slug: 'manual-tecnico/app-serviser/views/site/indexa' },
+													{ label: 'kpi.php', slug: 'manual-tecnico/app-serviser/views/site/kpi' },
+													{ label: 'login.php', slug: 'manual-tecnico/app-serviser/views/site/login' },
+													{ label: 'project.php', slug: 'manual-tecnico/app-serviser/views/site/project' },
+													{ label: 'requestPasswordResetToken.php', slug: 'manual-tecnico/app-serviser/views/site/request-password' },
+													{ label: 'resendVerificationEmail.php', slug: 'manual-tecnico/app-serviser/views/site/resend-verification' },
+													{ label: 'resetPassword.php', slug: 'manual-tecnico/app-serviser/views/site/reset-password' },
+													{ label: 'scientific.php', slug: 'manual-tecnico/app-serviser/views/site/scientific' },
+													{ label: 'signup.php', slug: 'manual-tecnico/app-serviser/views/site/signup' },
 												],	
 											},
 											{ 
 												label: 'test',
 												items: [
-													//{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser/assets/app-asset' },
+													{ label: 'course.php', slug: 'manual-tecnico/app-serviser/views/test/course' },
+													{ label: 'index.php', slug: 'manual-tecnico/app-serviser/views/test/indexa' },
 												],	
 											},
 											
