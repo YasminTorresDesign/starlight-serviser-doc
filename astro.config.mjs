@@ -506,6 +506,24 @@ export default defineConfig({
 															 
 														],	
 													},
+													{ 
+														label: 'js',
+														items: [
+															{ label: 'bootstrap.bundle.js', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-bundle' },
+															{ label: 'bootstrap.bundle.js.map', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-bundle-map' },
+															{ label: 'bootstrap.bundle.min.js', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-bundle-min' },
+															{ label: 'bootstrap.bundle.min.js.map', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-bundle-min-map' },
+															{ label: 'bootstrap.esm.js', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-esm' },
+															{ label: 'bootstrap.esm.js.map', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-esm-map' },
+															{ label: 'bootstrap.esm.min.js', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-esm-min' },
+															{ label: 'bootstrap.esm.min.js.map', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-esm-min-map' },
+															{ label: 'bootstrap.js', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap' },
+															{ label: 'bootstrap.js.map', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-map' },
+															{ label: 'bootstrap.min.js', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-min' },
+															{ label: 'bootstrap.min.js.map', slug: 'manual-tecnico/app-serviser/web/bootstrap/js/bootstrap-min-map' },
+															
+														],	
+													},
 												],	
 											},
 										],	
