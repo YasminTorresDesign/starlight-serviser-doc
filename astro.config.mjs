@@ -526,8 +526,30 @@ export default defineConfig({
 													},
 												],	
 											},
-										],	
+											{ 
+												label: 'css',
+												items: [
+													{ label: 'custom.css', slug: 'manual-tecnico/app-serviser/web/css/custom' },
+													{ label: 'site.css', slug: 'manual-tecnico/app-serviser/web/css/site' },
+												],	
+											},
+											{ 
+												label: 'images',
+												items: [
+													{ label: 'images', slug: 'manual-tecnico/app-serviser/web/images/images' },
+													
+												],	
+											},
+											{ label: '.htaccess', slug: 'manual-tecnico/app-serviser/web/htaccess' },
+											{ label: 'favicon.ico', slug: 'manual-tecnico/app-serviser/web/favicon' },
+											{ label: 'index-test.php', slug: 'manual-tecnico/app-serviser/web/index-test' },
+											{ label: 'index.php', slug: 'manual-tecnico/app-serviser/web/indexa' },
+											{ label: 'robots.txt', slug: 'manual-tecnico/app-serviser/web/robots' },
+										],
+											
 									},
+									{ label: 'codeception.yml', slug: 'manual-tecnico/app-serviser/codeception-yml' },
+									{ label: 'Dockerfile', slug: 'manual-tecnico/app-serviser/dockerfile' },
 									
 								],
 						},
