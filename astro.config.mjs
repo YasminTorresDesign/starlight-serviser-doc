@@ -557,6 +557,28 @@ export default defineConfig({
 							label: 'AppServiserAdmin',
 							items: [
 								// Each item here is one entry in the navigation menu.
+								{ 
+									label: 'assets',
+									items: [
+										{ label: 'AppAsset', slug: 'manual-tecnico/app-serviser-admin/assets/app-asset' },
+									],	
+								},
+								{ 
+									label: 'config',
+									items: [
+										//{ label: 'AppAsset', slug: 'manual-tecnico/app-sennova-lab/asset/app-asset' },
+										{ label: '.gitignore', slug: 'manual-tecnico/app-serviser-admin/config/gitignore' },
+										{ label: 'bootstrap.php', slug: 'manual-tecnico/app-serviser-admin/config/bootstrap' },
+										{ label: 'codeception-local.php', slug: 'manual-tecnico/app-serviser-admin/config/codeception-local' },
+										{ label: 'i18n-config.php', slug: 'manual-tecnico/app-serviser-admin/config/i18n-config' },
+										{ label: 'main-local.php', slug: 'manual-tecnico/app-serviser-admin/config/main-local' },
+										{ label: 'main.php', slug: 'manual-tecnico/app-serviser-admin/config/main' },
+										{ label: 'params-local.php', slug: 'manual-tecnico/app-serviser-admin/config/params-local' },
+										{ label: 'params.php', slug: 'manual-tecnico/app-serviser-admin/config/params' },
+										{ label: 'test-local.php', slug: 'manual-tecnico/app-serviser-admin/config/test-local' },
+										{ label: 'test.php', slug: 'manual-tecnico/app-serviser-admin/config/test' },
+									],	
+								},
 								
 							],
 						},
