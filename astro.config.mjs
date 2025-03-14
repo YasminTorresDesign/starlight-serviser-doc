@@ -605,6 +605,66 @@ export default defineConfig({
 										
 									],	
 								},
+								{ 
+									label: 'messages/es-CO',
+									items: [
+										{ label: 'app_original.php', slug: 'manual-tecnico/app-serviser-admin/messages/app-original' },
+										{ label: 'app.php', slug: 'manual-tecnico/app-serviser-admin/messages/app' },
+									],	
+								},
+								{ 
+									label: 'models',
+									items: [
+										{ label: '.gitkeep', slug: 'manual-tecnico/app-serviser-admin/models/gitkeep' },
+									],	
+								},
+								{ 
+									label: 'runtime',
+									items: [
+										{ label: '.gitignore.php', slug: 'manual-tecnico/app-serviser-admin/runtime/gitignore' },
+									],	
+								},
+								{ 
+									label: 'tests',
+									items: [
+										{ 
+											label: '_data',
+											items: [
+												{ label: '.gitignore.php', slug: 'manual-tecnico/app-serviser-admin/tests/data/gitignore' },
+												{ label: 'login_data.php', slug: 'manual-tecnico/app-serviser-admin/tests/data/login-data' },
+											],	
+										},
+										{ 
+											label: '_output',
+											items: [
+												{ label: '.gitignore', slug: 'manual-tecnico/app-serviser-admin/tests/output/gitignore' },
+											],	
+										},
+										{ 
+											label: '_support',
+											items: [
+												{ label: '.gitignore', slug: 'manual-tecnico/app-serviser-admin/tests/support/gitignore' },
+												{ label: 'FunctionalTester.php', slug: 'manual-tecnico/app-serviser-admin/tests/support/functional-tester' },
+												{ label: 'UnitTester.php', slug: 'manual-tecnico/app-serviser-admin/tests/support/unit-tester' },
+											],	
+										},
+										{ 
+											label: 'functional',
+											items: [
+												{ label: '_bootstrap.php', slug: 'manual-tecnico/app-serviser-admin/tests/functional/bootstrap' },
+												{ label: 'LoginCest.php', slug: 'manual-tecnico/app-serviser-admin/tests/functional/login-cest' },
+											],	
+										},
+										{ 
+											label: 'unit',
+											items: [
+												{ label: '_bootstrap.php', slug: 'manual-tecnico/app-serviser-admin/tests/unit/bootstrap' },
+											],	
+										},
+										{ label: 'functional.suite.yml', slug: 'manual-tecnico/app-serviser-admin/tests/functional-suite-yml' },
+										{ label: 'unit.suite.yml', slug: 'manual-tecnico/app-serviser-admin/tests/unit-suite-yml' },
+									],	
+								},
 								
 							],
 						},
