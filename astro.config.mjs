@@ -665,7 +665,226 @@ export default defineConfig({
 										{ label: 'unit.suite.yml', slug: 'manual-tecnico/app-serviser-admin/tests/unit-suite-yml' },
 									],	
 								},
-								
+								{ 
+									label: 'views',
+									items: [
+										{ 
+											label: 'auth-assignment',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-assignment/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-assignment/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-assignment/create' },
+												{ label: 'index.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-assignment/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-assignment/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-assignment/view' },
+											],	
+										},
+										{ 
+											label: 'auth-item',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-item/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-item/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-item/create' },
+												{ label: 'index.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-item/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-item/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/auth-item/view' },
+											],	
+										},
+										{ 
+											label: 'course',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/course/form' },
+												{ label: '_formmini.php', slug: 'manual-tecnico/app-serviser-admin/views/course/formmini' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/course/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/course/create' },
+												{ label: 'index.php', slug: 'manual-tecnico/app-serviser-admin/views/course/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/course/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/course/view' },
+											],	
+										},
+										{ 
+											label: 'course-module',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/course-module/form' },
+												{ label: '_formmini.php', slug: 'manual-tecnico/app-serviser-admin/views/course-module/formmini' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/course-module/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/course-module/create' },
+												{ label: 'index.php', slug: 'manual-tecnico/app-serviser-admin/views/course-module/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/course-module/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/course-module/view' },
+											],	
+										},
+										{ 
+											label: 'enrollment',
+											items: [
+												{ label: '_form-enroll.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment/form-enroll' },
+												{ label: '_form-unenroll.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment/form-unenroll' },
+												{ label: 'enroll.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment/enroll' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment/indexa' },
+												{ label: 'unenroll.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment/unenroll' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment/view' },
+											],	
+										},
+										{ 
+											label: 'enrollment-message',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment-message/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment-message/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment-message/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment-message/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment-message/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/enrollment-message/view' },
+											],	
+										},
+										{ 
+											label: 'group',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/group/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/group/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/group/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/group/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/group/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/group/view' },
+											],	
+										},
+										{ 
+											label: 'layouts',
+											items: [
+												{ label: 'blank.php', slug: 'manual-tecnico/app-serviser-admin/views/layouts/blank' },
+												{ label: 'content.php', slug: 'manual-tecnico/app-serviser-admin/views/layouts/content' },
+												{ label: 'control-sidebar.php', slug: 'manual-tecnico/app-serviser-admin/views/layouts/control-sidebar' },
+												{ label: 'footer.php', slug: 'manual-tecnico/app-serviser-admin/views/layouts/footer' },
+												{ label: 'main-login.php', slug: 'manual-tecnico/app-serviser-admin/views/layouts/main-login' },
+												{ label: 'main.php', slug: 'manual-tecnico/app-serviser-admin/views/layouts/main' },
+												{label: 'navbar.php', slug: 'manual-tecnico/app-serviser-admin/views/layouts/navbar' },
+												{label: 'sidebar.php', slug: 'manual-tecnico/app-serviser-admin/views/layouts/sidebar' },
+											],	
+										},
+										{ 
+											label: 'lesson',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/lesson/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/lesson/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/lesson/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/lesson/indexa' },
+												{ label: 'preview.php', slug: 'manual-tecnico/app-serviser-admin/views/lesson/preview' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/lesson/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/lesson/view' },
+											],	
+										},
+										{ 
+											label: 'mentorship',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/mentorship/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/mentorship/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/mentorship/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/mentorship/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/mentorship/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/mentorship/view' },
+											],	
+										},
+										{ 
+											label: 'profile',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/profile/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/profile/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/profile/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/profile/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/profile/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/profile/view' },
+											],	
+										},
+										{ 
+											label: 'question',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/question/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/question/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/question/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/question/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/question/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/question/view' },
+											],	
+										},
+										{ 
+											label: 'section',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/section/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/section/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/section/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/section/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/section/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/section/view' },
+											],	
+										},
+										{ 
+											label: 'site',
+											items: [
+												{ label: 'error.php', slug: 'manual-tecnico/app-serviser-admin/views/site/error' },
+												{ label: 'index-original.php', slug: 'manual-tecnico/app-serviser-admin/views/site/index-original' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/site/indexa' },
+												{ label: 'login.php', slug: 'manual-tecnico/app-serviser-admin/views/site/login' },
+											],	
+										},
+										{ 
+											label: 'survey',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/survey/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/survey/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/survey/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/survey/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/survey/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/survey/view' },
+											],	
+										},
+										{ 
+											label: 'user',
+											items: [
+												{ label: '_form.php', slug: 'manual-tecnico/app-serviser-admin/views/user/form' },
+												{ label: '_search.php', slug: 'manual-tecnico/app-serviser-admin/views/user/search' },
+												{ label: 'create.php', slug: 'manual-tecnico/app-serviser-admin/views/user/create' },
+												{ label: 'indexa.php', slug: 'manual-tecnico/app-serviser-admin/views/user/indexa' },
+												{ label: 'update.php', slug: 'manual-tecnico/app-serviser-admin/views/user/update' },
+												{ label: 'view.php', slug: 'manual-tecnico/app-serviser-admin/views/user/view' },
+											],	
+										},
+									],	
+								},
+								{ 
+									label: 'web',
+									items: [
+										{ 
+											label: 'ckeditor',
+											items: [
+												{ label: 'editor.js', slug: 'manual-tecnico/app-serviser-admin/web/ckeditor/editor-js' },
+												{ label: 'index-html', slug: 'manual-tecnico/app-serviser-admin/web/ckeditor/index-html' },
+												{ label: 'LICENSE.md', slug: 'manual-tecnico/app-serviser-admin/web/ckeditor/license' },
+												{ label: 'README.md', slug: 'manual-tecnico/app-serviser-admin/web/ckeditor/readme' },
+												{ label: 'upload.php', slug: 'manual-tecnico/app-serviser-admin/web/ckeditor/upload' },
+											],	
+										},
+										{ 
+											label: 'css',
+											items: [
+												{ label: 'site.css', slug: 'manual-tecnico/app-serviser-admin/web/css/site' },
+												
+											],	
+										},
+										{ 
+											label: 'images',
+											items: [
+												{ label: 'images', slug: 'manual-tecnico/app-serviser-admin/web/images/images' },
+												
+											],	
+										},
+										{ label: 'favicon.ico', slug: 'manual-tecnico/app-serviser-admin/web/favicon' },
+										{ label: 'index-test.php', slug: 'manual-tecnico/app-serviser-admin/web/index-test' },
+										{ label: 'index.php', slug: 'manual-tecnico/app-serviser-admin/web/indexa' },
+										{ label: 'robots.txt', slug: 'manual-tecnico/app-serviser-admin/web/robots' },
+										
+									],	
+								},
+								{ label: 'codeception.yml', slug: 'manual-tecnico/app-serviser-admin/codeception-yml' },
+								{ label: 'Dockerfile', slug: 'manual-tecnico/app-serviser-admin/dockerfile' },
 							],
 						},
 						
