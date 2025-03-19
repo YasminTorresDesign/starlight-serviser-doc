@@ -946,7 +946,10 @@ export default defineConfig({
 				
 				{
 					label: 'Manual de Usuario',
-					autogenerate: { directory: 'manual-usuario' },
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Guia de Usuario', slug: 'manual-usuario/guia-usuario' },
+					],
 				},
 			],
 		}),
