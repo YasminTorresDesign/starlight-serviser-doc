@@ -948,6 +948,82 @@ export default defineConfig({
 								{ label: 'Dockerfile', slug: 'manual-tecnico/app-serviser-admin/dockerfile' },
 							],
 						},
+						{ 
+							label: 'common',
+							items: [
+								{ 
+									label: 'components',
+									items: [
+										{ label: 'ActivityLogger.php', slug: 'manual-tecnico/common/components/activity-logger' },
+										{ label: 'TimestampBehavior.php', slug: 'manual-tecnico/common/components/timestamp-behavior' },
+									],	
+								},
+								{ 
+									label: 'config',
+									items: [
+										{ label: '_Copy.gitignore', slug: 'manual-tecnico/common/config/copy-gitignore' },
+										{ label: '_autocomplete.php', slug: 'manual-tecnico/common/config/autocomplete' },
+										{ label: '.gitignore.php', slug: 'manual-tecnico/common/config/gitignore' },
+										{ label: 'bootstrap.php', slug: 'manual-tecnico/common/config/bootstrap' },
+										{ label: 'codeception-local.php', slug: 'manual-tecnico/common/config/codeception-local' },
+										{ label: 'i18n-config.php', slug: 'manual-tecnico/common/config/i18n-config' },
+										{ label: 'main-local.php', slug: 'manual-tecnico/common/config/main-local' },
+										{ label: 'main.php', slug: 'manual-tecnico/common/config/main' },
+										{ label: 'params-local.php', slug: 'manual-tecnico/common/config/params-local' },
+										{ label: 'params-local.php', slug: 'manual-tecnico/common/config/params-local' },
+										{ label: 'test-local.php', slug: 'manual-tecnico/common/config/test-local' },
+										{ label: 'test.php', slug: 'manual-tecnico/common/config/test' },
+									],	
+								},
+								{ 
+									label: 'fixtures',
+									items: [
+										{ label: 'UserFixture.php', slug: 'manual-tecnico/common/fixtures/user-fixture' },
+									],	
+								},
+								{ 
+									label: 'mail',
+									items: [
+										{ 
+											label: 'layouts',
+											items: [
+												{ label: 'html.php', slug: 'manual-tecnico/common/mail/layouts/html' },
+												{ label: 'text.php', slug: 'manual-tecnico/common/mail/layouts/text' },
+											],	
+										},
+										{ label: 'emailVerify-html.php', slug: 'manual-tecnico/common/mail/email-verify-html' },
+										{ label: 'emailVerify-text.php', slug: 'manual-tecnico/common/mail/email-verify-text' },
+										{ label: 'passwordResetToken-html.php', slug: 'manual-tecnico/common/mail/password-reset-token-html' },
+										{ label: 'passwordResetToken-text.php', slug: 'manual-tecnico/common/mail/password-reset-token-text' },
+									],	
+								},
+								{ 
+									label: 'messages\es-CO',
+									items: [
+										{ label: 'app.php', slug: 'manual-tecnico/common/messages/app' },
+									],	
+								},
+								{ 
+									label: 'models',
+									items: [
+										{ label: 'codeception.yml', slug: 'manual-tecnico/common/codeception-yml' },
+									],	
+								},
+								{ 
+									label: 'tests',
+									items: [
+										{ label: 'codeception.yml', slug: 'manual-tecnico/common/codeception-yml' },
+									],	
+								},
+								{ 
+									label: 'widgets',
+									items: [
+										{ label: 'codeception.yml', slug: 'manual-tecnico/common/codeception-yml' },
+									],	
+								},
+								{ label: 'codeception.yml', slug: 'manual-tecnico/common/codeception-yml' },
+							],	
+						},
 						{
 							label: 'database',
 							items: [

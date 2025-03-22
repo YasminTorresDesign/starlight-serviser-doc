@@ -3,7 +3,7 @@ title: Manual Técnico Carpeta Common
 description:  Documentación Técnica de la subcarpeta `config`
 ---
 
-## Documentación Técnica del Archivo `Copy.gitignore`
+## Documentación Técnica del Archivo `_Copy.gitignore`
 
 ## Español
 
