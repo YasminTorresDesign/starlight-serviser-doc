@@ -13,8 +13,6 @@ La tabla `address` tiene por objeto almacenar información relacionada con las d
 
 ### Relaciones
 
-**ACA VA LA IMAGEN: XXXXXXXXXXX**
-
 La tabla `address` tiene una relación N:1 con la tabla `profile`, ya que un perfil puede tener múltiples direcciones y donde cada dirección este asociada a un único perfil.
 La columna `profile_id` actúa como una clave foránea que referencia a la columna `id` de la tabla `profile`.
 Tambien se definen las siguientes acciones de Integridad Referencial:
