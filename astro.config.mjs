@@ -1153,7 +1153,60 @@ export default defineConfig({
 								},
 							],
 						},
-						
+						{
+							label: 'console',
+							items: [
+								// Each item here is one entry in the navigation menu.
+								{ 
+									label: 'inicio',
+									items: [
+										{ label: 'inicio', slug: 'manual-tecnico/console/inicio/inicio' },
+										
+									],	
+								},
+								{ 
+									label: 'config',
+									items: [
+										{ label: 'config', slug: 'manual-tecnico/console/config/config' },
+										{ label: 'gitignore', slug: 'manual-tecnico/console/config/gitignore/gitignore' },
+										{ label: 'bootstrap', slug: 'manual-tecnico/console/config/bootstrap/bootstrap' },
+										{ label: 'main', slug: 'manual-tecnico/console/config/main/main' },
+										{ label: 'params', slug: 'manual-tecnico/console/config/params/params' },
+										{ label: 'test', slug: 'manual-tecnico/console/config/test/test' },
+									],	
+								},
+								{ 
+									label: 'controllers',
+									items: [
+										{ label: 'controllers', slug: 'manual-tecnico/console/controllers/controllers' },
+										{ label: 'gitkeep', slug: 'manual-tecnico/console/controllers/gitkeep/gitkeep' },
+										{ label: 'RbacController', slug: 'manual-tecnico/console/controllers/rbaccontroller/rbaccontroller' },
+									],	
+								},
+								{ 
+									label: 'migrations',
+									items: [
+										{ label: 'migrations', slug: 'manual-tecnico/console/migrations/migrations' },
+										
+									],	
+								},
+								{ 
+									label: 'models',
+									items: [
+										{ label: 'gitkeep', slug: 'manual-tecnico/console/models/models' },
+										
+									],	
+								},
+								{ 
+									label: 'runtime',
+									items: [
+										{ label: 'gitignore', slug: 'manual-tecnico/console/runtime/runtime' },
+										
+									],	
+								},
+							],
+						},
+
 
 						
 					],
