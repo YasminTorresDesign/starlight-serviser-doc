@@ -1206,7 +1206,160 @@ export default defineConfig({
 								},
 							],
 						},
-
+						{
+							label: 'environments',
+							items: [
+								{
+									label: 'dev',
+									items: [
+										{
+											label: 'backend',
+											items: [
+												{
+													label: 'config',
+													items: [
+														{ label: 'codeception-local.php', slug: 'manual-tecnico/environments/dev/backend/config/codeception-local' },
+														{ label: 'main-local.php', slug: 'manual-tecnico/environments/dev/backend/config/main-local' },
+														{ label: 'params-local.php', slug: 'manual-tecnico/environments/dev/backend/config/params-local' },
+														{ label: 'test-local.php', slug: 'manual-tecnico/environments/dev/backend/config/test-local' },
+													],
+												},
+												{
+													label: 'web',
+													items: [
+														{ label: 'index-test.php', slug: 'manual-tecnico/environments/dev/backend/web/index-test' },
+														{ label: 'index.php', slug: 'manual-tecnico/environments/dev/backend/web/indexa' },
+														{ label: 'robots.txt', slug: 'manual-tecnico/environments/dev/backend/web/robots' },
+													],
+												},
+											],
+										},
+										{
+											label: 'common',
+											items: [
+												{
+													label: 'config',
+													items: [
+														{ label: 'codeception-local.php', slug: 'manual-tecnico/environments/dev/common/config/codeception-local' },
+														{ label: 'main-local.php', slug: 'manual-tecnico/environments/dev/common/config/main-local' },
+														{ label: 'params-local.php', slug: 'manual-tecnico/environments/dev/common/config/params-local' },
+														{ label: 'test-local.php', slug: 'manual-tecnico/environments/dev/common/config/test-local' },
+													],
+												},
+											],
+										},
+										{
+											label: 'console',
+											items: [
+												{
+													label: 'config',
+													items: [
+														{ label: 'codeception-local.php', slug: 'manual-tecnico/environments/dev/console/config/codeception-local' },
+														{ label: 'main-local.php', slug: 'manual-tecnico/environments/dev/console/config/main-local' },
+														{ label: 'params-local.php', slug: 'manual-tecnico/environments/dev/console/config/params-local' },
+														{ label: 'test-local.php', slug: 'manual-tecnico/environments/dev/console/config/test-local' },
+													],
+												},
+											],
+										},
+										{
+											label: 'fronted',
+											items: [
+												{
+													label: 'config',
+													items: [
+														{ label: 'codeception-local.php', slug: 'manual-tecnico/environments/dev/fronted/config/codeception-local' },
+														{ label: 'main-local.php', slug: 'manual-tecnico/environments/dev/fronted/config/main-local' },
+														{ label: 'params-local.php', slug: 'manual-tecnico/environments/dev/fronted/config/params-local' },
+														{ label: 'test-local.php', slug: 'manual-tecnico/environments/dev/fronted/config/test-local' },
+													],
+												},
+												{
+													label: 'web',
+													items: [
+														{ label: 'index-test.php', slug: 'manual-tecnico/environments/dev/fronted/web/index-test' },
+														{ label: 'index.php', slug: 'manual-tecnico/environments/dev/fronted/web/indexa' },
+														{ label: 'robots.txt', slug: 'manual-tecnico/environments/dev/fronted/web/robots' },
+													],
+												},
+											],
+										},
+										{ label: 'yii', slug: 'manual-tecnico/environments/dev/yii' },
+										{ label: 'yii_test', slug: 'manual-tecnico/environments/dev/yii-test' },
+										{ label: 'yii_test.bat', slug: 'manual-tecnico/environments/dev/yii-test-bat' },
+									],
+								},
+								{
+									label: 'prod',
+									items: [
+										{
+											label: 'backend',
+											items: [
+												{
+													label: 'config',
+													items: [
+														{ label: 'main-local.php', slug: 'manual-tecnico/environments/prod/backend/config/main-local' },
+														{ label: 'params-local.php', slug: 'manual-tecnico/environments/prod/backend/config/params-local' },
+													],
+												},
+												{
+													label: 'web',
+													items: [
+														{ label: 'index.php', slug: 'manual-tecnico/environments/prod/backend/web/indexa' },
+														{ label: 'robots.txt', slug: 'manual-tecnico/environments/prod/backend/web/robots' },
+													],
+												},
+											],
+										},
+										{
+											label: 'common',
+											items: [
+												{
+													label: 'config',
+													items: [
+														{ label: 'main-local.php', slug: 'manual-tecnico/environments/prod/common/config/main-local' },
+														{ label: 'params-local.php', slug: 'manual-tecnico/environments/prod/common/config/params-local' },
+													],
+												},
+											],
+										},
+										{
+											label: 'console',
+											items: [
+												{
+													label: 'config',
+													items: [
+														{ label: 'main-local.php', slug: 'manual-tecnico/environments/prod/console/config/main-local' },
+														{ label: 'params-local.php', slug: 'manual-tecnico/environments/prod/console/config/params-local' },
+													],
+												},
+											],
+										},
+										{
+											label: 'fronted',
+											items: [
+												{
+													label: 'config',
+													items: [
+														{ label: 'main-local.php', slug: 'manual-tecnico/environments/prod/fronted/config/main-local' },
+														{ label: 'params-local.php', slug: 'manual-tecnico/environments/prod/fronted/config/params-local' },
+													],
+												},
+												{
+													label: 'web',
+													items: [
+														{ label: 'index.php', slug: 'manual-tecnico/environments/prod/fronted/web/indexa' },
+														{ label: 'robots.txt', slug: 'manual-tecnico/environments/prod/fronted/web/robots' },
+													],
+												},
+											],
+										},
+										{ label: 'yii', slug: 'manual-tecnico/environments/dev/yii' },
+									],
+								},								
+								{ label: 'index.php', slug: 'manual-tecnico/environments/indexa' },
+							],
+						},
 
 						
 					],
