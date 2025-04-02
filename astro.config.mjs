@@ -1254,7 +1254,7 @@ export default defineConfig({
 												{
 													label: 'config',
 													items: [
-														{ label: 'codeception-local.php', slug: 'manual-tecnico/environments/dev/console/config/codeception-local' },
+														//{ label: 'codeception-local.php', slug: 'manual-tecnico/environments/dev/console/config/codeception-local' },
 														{ label: 'main-local.php', slug: 'manual-tecnico/environments/dev/console/config/main-local' },
 														{ label: 'params-local.php', slug: 'manual-tecnico/environments/dev/console/config/params-local' },
 														{ label: 'test-local.php', slug: 'manual-tecnico/environments/dev/console/config/test-local' },
