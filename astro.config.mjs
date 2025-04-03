@@ -1357,7 +1357,7 @@ export default defineConfig({
 										{ label: 'yii', slug: 'manual-tecnico/environments/dev/yii' },
 									],
 								},								
-								{ label: 'index.php', slug: 'manual-tecnico/environments/indexa' },
+								//{ label: 'index.php', slug: 'manual-tecnico/environments/indexa' },
 							],
 						},
 
